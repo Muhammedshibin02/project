@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg1{
+    background: url(https://static.toiimg.com/thumb/msid-90130298,width-1280,height-720,resizemode-4/90130298.jpg) fixed;
+    background-size: cover;
+
+    
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .div1{
+        color: white;
+    }
+    i{
+        color: goldenrod;
+    }
+    .login{
+        a{
+            color: gold;
+        }
+    }
+  
+}
+.div2 .login{
+    color: goldenrod;
+}
+.div2 a:hover{
+    color: goldenrod;
+}
+.navbar .div2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.heading{
+    /* padding: 50px; */
+    padding-left: 150px;
+    
+}
+.firstdiv{
+    background-color: rgba(0, 0, 0, 0.5) ;
+    /* display: flex; */
+    gap: 100px;
+    color: white;
+    padding: 60px;
+   
+    .icon{
+        
+        display: flex;
+        flex-direction: column;
+        /* column-gap: 100px; */
+        gap: 40px;
+        /* justify-content: space-evenly; */
+        font-size: larger;
+        position: fixed;
+        top: 300px;
+        font-size: x-large;
+    }
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        color: gold;
+        font-size: 30px;
+    }
+    
+}
+.booknow{
+    /* border: 1px solid black; */
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+.booknow:hover{
+    background-color: rgba(0, 0, 0, 0.245);
+    a{
+        color: white;
+    }
+}
+
+.bg2{
+    background: fixed url(https://icdn.psgtalk.com/wp-content/uploads/2021/11/georginio-wijnaldum-rb-leipzig-v-paris-saint-germain-group-a-uefa-champions-league-2021.jpg);
+    background-size: cover;
+    .div1{
+        background-color: maroon;
+        width: 600px;
+        height: 700px;
+        padding: 100px;
+        padding-left: 200px;
+        /* position: relative; */
+        h1{
+            font-size: 80px;
+        }
+        p{
+            font-size: larger;
+        }
+    }
+    .bg2p{
+        border-top: 2px white solid;
+        /* padding: 50px; */
+        /* padding-left: 50px; */
+        padding-top: 30px;
+    }
+    .bg2scroll{
+        width: 60px;
+        background-color: lavenderblush;
+        position: absolute;
+        bottom: 359px;
+    }
+    
+}
+ .headicon{
+    background-color: goldenrod;
+    width: 30px;
+    padding: 10px;
+    text-decoration: none;
+    i{
+        color: black;
+    }
+}
+.booknowflex{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+.pg3{
+    background-color: black;
+   
+    /* padding: 30px; */
+    .head{
+        padding: 60px;
+        color: white;
+        padding-left: 300px;
+        /* border-bottom: 1px solid white; */
+        font-size: x-large;
+        /* border-bottom: 1px solid white; */
+    }
+    .img1{
+        img{
+            width: 500px;
+            height: 500px;
+            /* padding-left: 200px;
+            padding-right: 200px; */
+            /* padding: 200px; */
+        }
+    }
+    .card1{
+        color: white;
+        width: 480px;
+    }
+    .cardflex{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 60px;
+    }
+}
+.imgflex{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.pg4{
+    background: fixed url(https://images.ps-aws.com/c?url=https%3A%2F%2Fd2x51gyc4ptf2q.cloudfront.net%2Fcontent%2Fuploads%2F2022%2F11%2F02230016%2FPSG-Kylian-Mbappe-F365.jpg);
+    background-size: cover;
+    background-position: top;
+    .div1{
+        background-color: maroon;
+        width: 600px;
+        height: 650px;
+        margin-left: 950px;
+        padding: 80px;
+        text-align: center;
+        color: white;
+        h2{
+            color: goldenrod;
+        }
+        button{
+            background-color: goldenrod;
+            border: none;
+            padding: 10px 30px;
+        }
+        button:hover{
+           background-color: rgba(155, 121, 34, 0.433);
+            
+        }
+        p{
+            font-size: large;
+        }
+        i{
+            color: goldenrod;
+        }
+    }
+}
+.pg5{
+    background-color: black;
+    color: white;
+    padding: 60px;
+    head{
+        padding-left: 60px;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        padding: 60px;
+        align-items: center;
+    }
+}
+.pg6{
+    background-color: maroon;
+    .head{
+        /* border: 1px solid red; */
+        width: 700px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
+    }
+    button{
+        background-color: goldenrod;
+        border: none;
+        padding: 10px 30px;
+    }
+    button:hover{
+        background-color:rgb(93, 83, 26);
+        color: white;
+    }
+    .bt:hover{
+        background-color:maroon;
+        color: white;
+    }
+    .imageflex{
+        img{
+            width: 400px;
+            opacity: 0.5;
+        }
+        display: flex;
+        justify-content:space-around;
+        padding: 30px 100px;
+        img:hover{
+             /* filter: grayscale(0);
+             transform: scale(1.3) rotate(7deg); */
+             color:  rgba(0, 0, 0, 0.5);
+             opacity: 1;
+        }
+    }
+    .imageflex img:hover{
+        color: red;
+
+    }
+    .img-cnt{
+        width: 400px;
+        padding: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        gap: 380px;
+        padding-left: 200px;
+        padding-right: 100px;
+        .pg6-card1{
+            border-bottom: 1px solid rgb(236, 233, 233);
+            padding-bottom: 30px;
+        }
+    }
+}
+.pg7{
+    background: url(https://s1.dmcdn.net/v/WanoU1cX3X22BhrBp/x1080);
+    background-size: cover;
+    color: white;
+    .pg7div1{
+        background-color:  rgba(0, 0, 0, 0.5);
+        padding: 300px;
+    }
+    .player-name{
+        padding: 100px;
+        padding-left: 370px;
+    }
+}
+.pg9{
+    background-color: black;
+    color: white;
+    height: 550px;
+    .footer{
+        padding: 60px;
+        padding-left: 130px;
+        padding-right: 100px;
+        display: flex;
+        justify-content: space-between;
+        .ft1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            column-gap: 100px;
+
+          
+        }
+        .lg{
+            display: flex;
+            padding: 20px 0px;
+            gap: 10px;
+            font-size: larger;
+            i{
+                color: white;
+            }
+            
+
+        }
+        
+    }
+    i{
+        color: goldenrod;
+    }
+    button{
+        padding: 10px 20px;
+        background-color: transparent;
+        border: 1px solid goldenrod;
+        color: goldenrod;
+    }
+    button:hover{
+        color: white;
+        border-color: white;
+    }
+    .app-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
